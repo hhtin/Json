@@ -1,0 +1,4 @@
+com\tinhh\bookstore\ws\BookResource.class
+com\tinhh\bookstore\util\DBUtil.class
+com\tinhh\bookstore\dao\BookDAO.class
+com\tinhh\bookstore\dto\Book.class

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <h3>Search Book </h3>
+        <form action="search.do" method="POST">
+            <label>ISBN: </label>
+            <input name="isbn">            
+            <input type="submit" value="Search">
+        </form>
+        <h3>Book creating > Input the book info</h3>
+        <form action="create.do" method="POST">
+            <table>		
+                <tr>			
+                    <td>ISBN:</td>			
+                    <td><input name="isbn"></td>		
+                </tr>
+                <tr>
+                    <td>Title:</td>			
+                    <td><input name="title"></td>		
+                </tr>
+                <tr>
+                    <td>Author:</td>			
+                    <td><input name="author"></td>		
+                </tr>
+                <tr>
+                    <td>Edition:</td>			
+                    <td><input type="number" name="edition"></td>		
+                </tr>
+                <tr>
+                    <td>Published Year:</td>			
+                    <td><input type="number" name="publishedYear"></td>		
+                </tr>
+                <tr>
+                    <td></td>			
+                    <td><input type="submit" value="Save new book"></td>		
+                </tr>
+            </table>
+        </form> 
+    </body>
+</html>
